@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="128.19">
+<testcase classname="As a user, I should be able to access a file by direct download link" name="Direct download of a file" time="127.849">
+<system-out><![CDATA[Given I put the URL in the browser..........................................passed
+When I type "Bob Backline" as the user name.................................passed
+Then The file downloads immediately.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

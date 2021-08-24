@@ -1,0 +1,22 @@
+[INFO ] 2021-08-10 15:40:53.088 [main] Login_Step_Def - I am on the web page
+[INFO ] 2021-08-10 15:41:24.172 [main] Login_Step_Def - Enter the credentials
+[INFO ] 2021-08-10 15:41:29.186 [main] Login_Step_Def - Verify that you are in the main title page
+[INFO ] 2021-08-10 15:41:36.889 [main] MyReports_StepDef - I am on the web Main Page
+[INFO ] 2021-08-10 15:42:22.826 [main] MyReports_StepDef - There is no My Reports module
+[INFO ] 2021-08-10 15:42:29.949 [main] MyReports_StepDef - Click the J icon
+[INFO ] 2021-08-10 15:42:42.030 [main] MyReports_StepDef - I click to start impersonation
+[INFO ] 2021-08-10 15:42:54.158 [main] MyReports_StepDef - User Name: Bob Backline
+[INFO ] 2021-08-10 15:43:06.222 [main] MyReports_StepDef - Click the button
+[INFO ] 2021-08-10 15:43:18.431 [main] MyReports_StepDef - Click the My Reports button
+[INFO ] 2021-08-10 15:43:28.488 [main] MyReports_StepDef - I am in the My Reports module
+[INFO ] 2021-08-10 15:50:52.927 [main] Login_Step_Def - I am on the web page
+[INFO ] 2021-08-10 15:51:23.017 [main] Login_Step_Def - Enter the credentials
+[INFO ] 2021-08-10 15:51:28.035 [main] Login_Step_Def - Verify that you are in the main title page
+[INFO ] 2021-08-10 15:51:35.087 [main] MyReports_StepDef - I am on the web Main Page
+[INFO ] 2021-08-10 15:52:20.891 [main] MyReports_StepDef - There is no My Reports module
+[INFO ] 2021-08-10 15:52:27.986 [main] MyReports_StepDef - Click the J icon
+[INFO ] 2021-08-10 15:52:40.060 [main] MyReports_StepDef - I click to start impersonation
+[INFO ] 2021-08-10 15:52:52.183 [main] MyReports_StepDef - User Name: Bob Backline
+[INFO ] 2021-08-10 15:53:04.242 [main] MyReports_StepDef - Click the button
+[INFO ] 2021-08-10 15:53:16.393 [main] MyReports_StepDef - Click the My Reports button
+[INFO ] 2021-08-10 15:53:26.447 [main] MyReports_StepDef - I am in the My Reports module

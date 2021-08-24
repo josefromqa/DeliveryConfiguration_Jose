@@ -1,0 +1,102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-11T21:59:16.654Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2537696000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "deliveryConfiguration_Jose.step_def.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Direct download of a file",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-access-a-file-by-direct-download-link;direct-download-of-a-file",
+        "after": [
+          {
+            "result": {
+              "duration": 1029800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "deliveryConfiguration_Jose.step_def.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7360326000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I put the URL in the browser",
+            "match": {
+              "location": "deliveryConfiguration_Jose.step_def.DirectDownload_StepDef.iPutTheURLInTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16169840200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I type \"Bob Backline\" as the user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bob Backline\"",
+                  "offset": 7
+                }
+              ],
+              "location": "deliveryConfiguration_Jose.step_def.DirectDownload_StepDef.iTypeAsTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7782496200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The file downloads immediately",
+            "match": {
+              "location": "deliveryConfiguration_Jose.step_def.DirectDownload_StepDef.theFileDownloadsImmediately()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DirectDownload"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to access a file by direct download link",
+    "description": "",
+    "id": "as-a-user--i-should-be-able-to-access-a-file-by-direct-download-link",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DirectDownload.feature",
+    "tags": [
+      {
+        "name": "@DirectDownload",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
