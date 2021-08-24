@@ -20,6 +20,7 @@ public class DirectDownload_StepDef {
     public void iPutTheURLInTheBrowser() {
         DriverFactory.getDriver().get(ConfigurationReader.getProperty("DownloadLink"));
         BrowserUtils.wait(6);
+        System.out.println("");
 
     }
 
