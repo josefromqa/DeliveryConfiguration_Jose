@@ -33,6 +33,7 @@ public class DirectDownload_StepDef {
 
     }
 
+
     @Then("The file downloads immediately")
     public void theFileDownloadsImmediately() {
         String expectedTitle="Logging in...";
