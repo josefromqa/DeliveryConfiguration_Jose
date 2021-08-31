@@ -24,6 +24,8 @@ public class Hooks {
         //DriverFactory.getDriver().manage().window().maximize();
         //DriverFactory.getDriver().manage().deleteAllCookies();
 
+        System.out.println("::: Ending Automation:::");
+
 
     }
 
