@@ -25,8 +25,6 @@ public class DirectDownload_StepDef {
     }
 
 
-
-
     @When("I type {string} as the user name")
     public void iTypeAsTheUserName(String arg0) throws Exception {
         directdownload.SetLogin();
