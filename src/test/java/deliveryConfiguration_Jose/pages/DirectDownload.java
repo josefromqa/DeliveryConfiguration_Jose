@@ -58,19 +58,25 @@ public class DirectDownload extends BasePage{
         String passwordValue1 = ConfigurationReader.getProperty("passwordValue1");
         try {
             userName.sendKeys(userNameValue1);
-            BrowserUtils.wait(7);
+            BrowserUtils.wait(10);
+            Thread.sleep(5000);
             NextBtn.click();
-            BrowserUtils.wait(7);
+            BrowserUtils.wait(10);
+            Thread.sleep(5000);
         } catch (Exception e) {
             b2c_userName.sendKeys(userNameValue1);
-            BrowserUtils.wait(7);
+            BrowserUtils.wait(10);
+            Thread.sleep(5000);
             b2c_NextButton.click();
-            BrowserUtils.wait(7);
+            BrowserUtils.wait(10);
+            Thread.sleep(5000);
         }
         password.sendKeys(passwordValue1);
-        BrowserUtils.wait(7);
+        BrowserUtils.wait(10);
+        Thread.sleep(5000);
         sign.click();
-        BrowserUtils.wait(7);
+        BrowserUtils.wait(10);
+        Thread.sleep(5000);
         StaySignedIn.click();
 
         LocalDateTime timeNow = LocalDateTime.now();
@@ -82,15 +88,19 @@ public class DirectDownload extends BasePage{
 
         if (needVerification){
             BrowserUtils.waitVisibilityOf(unrecognized_ip_window);
-            BrowserUtils.wait(5);
+            BrowserUtils.wait(10);
+            Thread.sleep(5000);
             String Code_verification_window_message = unrecognized_ip_message.getText();
             System.out.println("Code Verification Window Message: "+Code_verification_window_message);
             String securityKey = emailUtils.getSecurityKey(timeNow, "Bob.Backline@npd.com", "Baseball1", "Bob");
-            BrowserUtils.wait(5);
+            BrowserUtils.wait(10);
+            Thread.sleep(5000);
             key_input_field.sendKeys(securityKey);
-            BrowserUtils.wait(5);
+            BrowserUtils.wait(10);
+            Thread.sleep(5000);
             verify_code_btn.click();
-            BrowserUtils.wait(5);
+            BrowserUtils.wait(10);
+            Thread.sleep(5000);
         }
 
 
